@@ -1,3 +1,29 @@
+# Ignore main sketch file used for development
+FelixSense.ino
+
+# PlatformIO files
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino ignore files
+sketch.json
+*.ino.cpp
+*.ino.elf
+*.hex
+
+# Arduino IDE temp files
+*.arduino.*
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+cspell.json
+
+
 # Prerequisites
 *.d
 
