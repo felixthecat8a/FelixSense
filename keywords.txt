@@ -1,0 +1,94 @@
+##################################
+# Classes and Data Types
+##################################
+FelixSense	KEYWORD1	FelixSense
+AnalogInput	KEYWORD1
+Potentiometer KEYWORD1
+Photoresistor KEYWORD1
+Thermistor  KEYWORD1
+HeatMap  KEYWORD1
+Temperature KEYWORD1
+NightLight  KEYWORD1
+AsyncTime KEYWORD1
+
+##################################
+# Sensor Methods
+##################################
+begin	KEYWORD2
+readHardware  KEYWORD2
+update	KEYWORD2
+readRaw	KEYWORD2
+readSmoothed	KEYWORD2
+readNormalized  KEYWORD2
+readNormalizedSmoothed	KEYWORD2
+readMapped	KEYWORD2
+readMappedSmoothed	KEYWORD2
+read  KEYWORD2
+readSmooth  KEYWORD2
+readVoltage KEYWORD2
+readVoltageSmoothed KEYWORD2
+getScale	KEYWORD2
+
+##################################
+# Potentiometer Methods
+##################################
+angle	KEYWORD2
+angleSmoothed  KEYWORD2
+voltage  KEYWORD2
+voltageSmoothed KEYWORD2
+percentage  KEYWORD2
+percentageSmoothed  KEYWORD2
+
+##################################
+# Photoresistor Methods
+##################################
+lux	KEYWORD2
+luxSmoothed	KEYWORD2
+night	KEYWORD2
+above KEYWORD2
+below KEYWORD2
+level KEYWORD2
+levelSmoothed KEYWORD2
+
+##################################
+# Thermistor Methods
+##################################
+getKelvin	KEYWORD2
+getCelsius	KEYWORD2
+getFahrenheit	KEYWORD2
+
+##################################
+# HeatMap Methods
+##################################
+toHue KEYWORD2
+toRed KEYWORD2
+toGreen KEYWORD2
+toBlue  KEYWORD2
+
+##################################
+# NightLight Methods
+##################################
+hysteresis KEYWORD2
+isAbove KEYWORD2
+isBelow KEYWORD2
+
+##################################
+# AsyncTime Functions
+##################################
+every KEYWORD2
+after KEYWORD2
+reset KEYWORD2
+once  KEYWORD2
+arm KEYWORD2
+disarm  KEYWORD2
+isArmed KEYWORD2
+
+##################################
+# Math Functions
+##################################
+clamp KEYWORD2
+lerp  KEYWORD2
+inverseLerp KEYWORD2
+mapClamped  KEYWORD2
+wrap  KEYWORD2
+wrapInclusive KEYWORD2
