@@ -1,11 +1,12 @@
 #ifndef FELIX_SENSE_H
 #define FELIX_SENSE_H
 
+#include <Arduino.h>
+
 #include "helper/AsyncTime.h"
 #include "helper/HeatMap.h"
 #include "helper/NightLignt.h"
 #include "util/Sensor.h"
-#include <Arduino.h>
 
 namespace FelixSense {
 
